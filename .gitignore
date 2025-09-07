@@ -1,0 +1,47 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --------------------
+# Data / Artifacts
+# --------------------
+data/
+*.npy
+*.npz
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.log
+
+# --------------------
+# IDE / OS
+# --------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Build / Dist
+# --------------------
+build/
+dist/
+*.egg-info/
